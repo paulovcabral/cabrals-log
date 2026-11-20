@@ -1,0 +1,75 @@
+name: Cabral's Log
+tagline: Notes from the field on PostgreSQL, DynamoDB, caching, and AWS
+url: https://paulovcabral.github.io/cabrals-log
+https: null
+footer: <div>&copy; 2026 Paulo Cabral &middot; Built with <a href="https://github.com/rochacbruno/marmite">Marmite</a></div>
+language: en
+pagination: 10
+pages_title: Pages
+tags_title: Tags
+tags_content_title: Posts tagged with '$tag'
+archives_title: Archive
+archives_content_title: Posts from '$year'
+streams_title: Streams
+streams_content_title: Posts from '$stream'
+series_title: Series
+series_content_title: Posts from '$series' series
+default_author: paulo
+authors_title: Authors
+languages_title: Languages
+enable_search: true
+search_show_matches: false
+search_match_count: 3
+enable_related_content: true
+search_title: Search
+content_path: content
+site_path: ''
+templates_path: templates
+static_path: static
+media_path: media
+card_image: ''
+banner_image: ''
+logo_image: ''
+default_date_format: '%b %e, %Y'
+menu:
+- - About
+  - about.html
+- - Tags
+  - tags.html
+- - Archive
+  - archive.html
+extra:
+  colorscheme: nord
+authors:
+  paulo:
+    name: Paulo Cabral
+    avatar: media/avatar.svg
+    bio: Database engineer specialized in PostgreSQL. Also writes about DynamoDB, caching, and AWS data infrastructure.
+streams: {}
+languages: {}
+series: {}
+toc: true
+json_feed: false
+show_next_prev_links: true
+publish_md: false
+source_repository: null
+image_provider: null
+markdown_parser: null
+code_highlight:
+  enabled: true
+theme: null
+file_mapping: []
+enable_shortcodes: true
+shortcode_pattern: null
+build_sitemap: true
+publish_urls_json: true
+gallery_path: gallery
+gallery_create_thumbnails: true
+gallery_thumb_size: 50
+skip_image_resize: false
+enable_toolbar: true
+check_internal_links: false
+strict_internal_links: false
+check_media_links: false
+native_mermaid_render: true
+mermaid_config: null
